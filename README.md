@@ -36,8 +36,16 @@ Site-suitability-analysis/
 ├── README.md
 ├── Additional notes.doc
 └── requirements.txt
-
 ```
+- icon: The project's GUI window icon.
+- input: Store two-dimensional raster data.
+- output: Store the output suitability raster data and suitability images.
+- src: folder containing the Python code to implement the site suitability analysis function, where assignment_2.py is the source code file.
+- test: folder containing the project run test files. This includes the project's read data test and download data test.
+- LICENS: file is the open source license of the project, this project is under the MIT license.
+- README.md: This file is the documentation for the project and contains an introduction to the project, instructions for use, development guides etc.
+- Additional notes.doc: file is a supplement to README.md. More detailed code notes and problems encountered in writing and debugging the code are described in this file.
+- requirements.txt: The file lists the Python libraries that the project depends on, such as NumPy, Matplotlib, tkinter and os. You can install these dependencies by running pip install -r requirements.txt.
 
 ## 🌟 Features
 - Easy adjustment of factor weights
