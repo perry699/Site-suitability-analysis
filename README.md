@@ -87,6 +87,7 @@ The project focused on testing the core functions of the code:
 >>> read_data('./test/test_read_data.txt')
     ([[1.0, 1.0, 1.0], [4.0, 4.0, 4.0], [6.0, 6.0, 6.0]], 3, 3)
 ```
+
 2. def calculate(): This function is the core part of the code. It is responsible for calculating the weighting factor and normalising the result to a range of 0-255. This function is responsible for the validity of the final result and needs to be carefully tested to ensure that the code works properly. As the function eventually returns an image, additional test code is written for this function in order not to interfere with testing. The computed part of the function is copied into the def test_calculate() function, which returns 'scaled_sum', the raster data for suitability. To test this function, first declare the example variables: 
 ```python
 #Preparing example variables
@@ -107,6 +108,25 @@ The example variables are ready for testing.
 ```
 After verification, the test results are correct and the function works fine.
 
+3. def download_result(): This function downloads the results of the suitability analysis as an image and text file and saves them locally. It is necessary to test that the function downloads and saves properly, and that the images and text are in the correct format. Write a test version of this function, copying the functions except for the conditional judgement into def test_download_result(). Change the file save path to the test folder. 
+```python
+# Create a path to the 'test' folder in the parent directory
+test_dir = os.path.join(script_dir, '..', 'test')
+#Splice the output folder and image file names into a full path
+image_path = os.path.join(test_dir, 'test_download.png')
+txt_path = os.path.join(test_dir, 'test_download.txt')
+```
+
+Declare the example variable:
+```python
+scaled_sum = [[0, 0, 0], [127, 127, 127], [255, 255, 255]]
+```
+
+The function returns as an image and after testing, the code works fine.
+```python
+>>> test_download_result()
+    <Figure size 720x288 with 2 Axes>
+```
 
 ## 📄 License
 This project is based on the [MIT](https://choosealicense.com/licenses/mit/) license, please refer to the LICENSE file for details. You are welcome to use, modify and share it freely. If you find any problems or want to contribute code, please submit an Issue or Pull Request. Thank you very much for your participation and support!
