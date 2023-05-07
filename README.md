@@ -17,10 +17,9 @@ The main functions of this project include:
 
 
 ## Features
-
 - Easy adjustment of factor weights
+- Efficient calculation of the overall score for site suitability
 - Visual representation of site suitability
-- Efficient calculation of overall suitability score
 
 
 ## Installation
