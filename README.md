@@ -13,7 +13,31 @@ The main functions of this project include:
 - Calculating overall suitability
 - Visualisation of suitability results
 
-## 📁 Description
+## 📁 Structure
+The project mainly consists of the following files and folders:
+```css
+Site-suitability-analysis/
+├── icon/
+│   ├── stone.ico
+├── input/
+│   ├── geology.txt
+│   ├── population.txt
+│   └── transportation.txt
+├── output/
+│   ├── suitabilityMap.png
+│   └── suitabilityMap.txt
+├── src/
+│   ├── assignment_2.py
+├── test/
+│   ├── test_download.png
+│   ├── test_download.txt
+│   └── test_read_data.txt
+├── LICENSE
+├── README.md
+├── Additional notes.doc
+└── requirements.txt
+
+```
 
 ## 🌟 Features
 - Easy adjustment of factor weights
