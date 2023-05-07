@@ -78,6 +78,18 @@ To use this project, follow these steps:
 9. Clicking on the Quit button will end the process and close the program.
 
 
+## Testing
+This project uses doctest for code testing. Doctest enables quick writing and maintenance of test code, improving the quality and readability of the code. The comments section of the code provides a reliable basis for testing.
+The project focused on testing the core functions of the code:
+
+1. def read_data(file_path): This function reads the input file specified by file_path. It returns data, num_rows, and num_cols, which represent the data in the input file, the number of rows of data, and the number of columns of data, respectively. As this function requires the input file to be specified, a simple three-row, three-column sample file is written and placed in the test folder for testing purposes. Test at the function comment: 
+```python
+>>> read_data('./test/test_read_data.txt')
+    ([[1.0, 1.0, 1.0], [4.0, 4.0, 4.0], [6.0, 6.0, 6.0]], 3, 3)
+```
+>>>> read_data('. /test/test_read_data.txt') --- ([[1.0, 1.0, 1.0], [4.0, 4.0, 4.0], [6.0, 6.0, 6.0]], 3, 3). After testing, the code works fine.
+
+
 ## 📄 License
 This project is based on the [MIT](https://choosealicense.com/licenses/mit/) license, please refer to the LICENSE file for details. You are welcome to use, modify and share it freely. If you find any problems or want to contribute code, please submit an Issue or Pull Request. Thank you very much for your participation and support!
 
