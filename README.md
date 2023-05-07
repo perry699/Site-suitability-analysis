@@ -31,3 +31,22 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install.
 
 ## License
 This project is based on the [MIT](https://choosealicense.com/licenses/mit/) license, please refer to the LICENSE file for details. You are welcome to use, modify and share it freely. If you find any problems or want to contribute code, please submit an Issue or Pull Request. Thank you very much for your participation and support!
+
+## Credits
+This project was developed independently by Pei Ziyu (Perry). The GUI interface draws inspiration from similar tools commonly used by urban planners and GIS professionals. I would like to thank these professionals for their invaluable contribution to the field of spatial analysis, which has paved the way for my work. In addition, I would like to thank the developers of the following open source libraries who played an important role in the development of this project: NumPy: Travis E. Oliphant, et al. Matplotlib: John D. Hunter, et al. Tkinter: Python Software Foundation, et al. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
