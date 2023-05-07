@@ -20,14 +20,14 @@ The main functions of this project include:
 - Visual representation of site suitability
 
 
-## Installation
+## 🛠️ Installation
 To install this project, you will first need to have Python 3.5 or higher installed on your machine. Then, follow these steps:
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install.
 
-## Usage
+## 🚀 Usage
 
-## License
+## 📄 License
 This project is based on the [MIT](https://choosealicense.com/licenses/mit/) license, please refer to the LICENSE file for details. You are welcome to use, modify and share it freely. If you find any problems or want to contribute code, please submit an Issue or Pull Request. Thank you very much for your participation and support!
 
 ## Credits
