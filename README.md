@@ -7,7 +7,8 @@ A company producing rock aggregates was planning to build a plant in the UK. In 
 
 
 ## Project description
-This project is a Python-based tool. As described in the project background, this system is used to analyse site suitability to help companies select the best site for their plant. The user can calculate the results by entering two-dimensional raster data for three factors and selecting the respective weights, and generating a suitability image.  The project can be re-used for other scenarios. It can be used wherever geographic suitability assessment is involved, i.e. to analyse the impact factor weights and generate a suitability atlas. The main functions of this project include:
+This project is a Python-based tool. As described in the project background, this system is used to analyse site suitability to help companies select the best site for their plant. The user can calculate the results by entering two-dimensional raster data for three factors and selecting the respective weights, and generating a suitability image.  The project can be re-used for other scenarios. It can be used wherever geographic suitability assessment is involved, i.e. to analyse the impact factor weights and generate a suitability atlas. 
+The main functions of this project include:
 - Reading and processing impact factors (2D raster data)
 - Selecting weights to measure each factor
 - Calculating overall suitability
