@@ -15,7 +15,7 @@ The main functions of this project include:
 
 ## 📁 Structure
 The project mainly consists of the following files and folders:
-```css
+```python
 Site-suitability-analysis/
 ├── icon/
 │   ├── stone.ico
