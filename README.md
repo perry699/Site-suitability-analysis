@@ -55,8 +55,16 @@ Site-suitability-analysis/
 
 ## 🛠️ Installation
 To install this project, you will first need to have Python 3.5 or higher installed on your machine. Then, follow these steps:
+1. Clone the repository to your local machine using git clone https://github.com/perry699/Site-suitability-analysis.git.
+2. Navigate to the directory where the repository is located.
+3. Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the necessary dependencies.
+```bash
+pip install -r requirements.txt
+```
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install.
+
+
+
 
 ## 🚀 Usage
 
