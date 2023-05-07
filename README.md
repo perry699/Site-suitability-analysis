@@ -108,7 +108,7 @@ The example variables are ready for testing.
 ```
 After verification, the test results are correct and the function works fine.
 
-3. def download_result(): This function downloads the results of the suitability analysis as an image and text file and saves them locally. It is necessary to test that the function downloads and saves properly, and that the images and text are in the correct format. Write a test version of this function, copying the functions except for the conditional judgement into def test_download_result(). Change the file save path to the test folder. 
+3. def download_result(): This function downloads the results of the suitability analysis as an image and text file and saves them locally. It is necessary to test that the function downloads and saves properly, and that the images and text are in the correct format. Write a test version of this function, copying the functions except for the conditional judgement into def test_download_result(). Change the file save path to the test folder:
 ```python
 # Create a path to the 'test' folder in the parent directory
 test_dir = os.path.join(script_dir, '..', 'test')
