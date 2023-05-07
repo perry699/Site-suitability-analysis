@@ -1,4 +1,4 @@
-# 🏭 Rock Aggregates Plant Suitability Assessment
+# 🏭 Rock Aggregates Plant Suitability Assessment System
 
 ## 🌍 Background
 A company producing rock aggregates was planning to build a plant in the UK. In order to gain an advantage in a competitive market and maximise profits, they needed to assess the suitability of three influencing factors for different sites: geological conditions, transport conditions and population density. Each of these three influences was provided by the company with a two-dimensional raster. The value of each raster represents the suitability of the site for that factor, with higher coefficients being more suitable for the plant. However, given the different importance of each factor, they are multiplied by their respective weights and the weighted factors are added together to give the overall suitability. I developed this project in order to make it easier for companies to adjust the factor weights and to visualise suitability.
