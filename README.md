@@ -54,7 +54,9 @@ Site-suitability-analysis/
 
 
 ## 🛠️ Installation
-To install this project, you will first need to have Python 3.5 or higher installed on your machine. Then, follow these steps:
+To install this project, you will first need to have Python 3.5 or higher installed on your machine. 
+Then, follow these steps:
+
 1. Clone the repository to your local machine using git clone https://github.com/perry699/Site-suitability-analysis.git.
 2. Navigate to the directory where the repository is located.
 3. Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the necessary dependencies.
@@ -62,11 +64,19 @@ To install this project, you will first need to have Python 3.5 or higher instal
 pip install -r requirements.txt
 ```
 
-
-
-
-
 ## 🚀 Usage
+To use this project, follow these steps:
+
+1. Clone the repository.
+2. Install the required dependencies.
+3. Running the GUI interface: src/ assignment_2.py
+4. By clicking on Display Image, the program will automatically read the raster data file of the influence factors from the input folder and display it as an image.
+5. Adjust the weighting sliders for the three factors at the control panel.
+6. Click on the Calculate button and the program will automatically generate a suitability image.
+7. In the output panel click on the Save & Print button to save the suitability image and raster data in the output folder, which will open automatically.
+8. Clicking on the Clear button will clear all images from the interface canvas.
+9. Clicking on the Quit button will end the process and close the program.
+
 
 ## 📄 License
 This project is based on the [MIT](https://choosealicense.com/licenses/mit/) license, please refer to the LICENSE file for details. You are welcome to use, modify and share it freely. If you find any problems or want to contribute code, please submit an Issue or Pull Request. Thank you very much for your participation and support!
