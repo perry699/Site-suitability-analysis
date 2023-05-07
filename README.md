@@ -78,7 +78,7 @@ To use this project, follow these steps:
 9. Clicking on the Quit button will end the process and close the program.
 
 
-## Testing
+## 💡 Testing
 This project uses doctest for code testing. Doctest enables quick writing and maintenance of test code, improving the quality and readability of the code. The comments section of the code provides a reliable basis for testing.
 The project focused on testing the core functions of the code:
 
