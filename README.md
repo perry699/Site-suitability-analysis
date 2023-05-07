@@ -87,7 +87,25 @@ The project focused on testing the core functions of the code:
 >>> read_data('./test/test_read_data.txt')
     ([[1.0, 1.0, 1.0], [4.0, 4.0, 4.0], [6.0, 6.0, 6.0]], 3, 3)
 ```
->>>> read_data('. /test/test_read_data.txt') --- ([[1.0, 1.0, 1.0], [4.0, 4.0, 4.0], [6.0, 6.0, 6.0]], 3, 3). After testing, the code works fine.
+2. def calculate(): This function is the core part of the code. It is responsible for calculating the weighting factor and normalising the result to a range of 0-255. This function is responsible for the validity of the final result and needs to be carefully tested to ensure that the code works properly. As the function eventually returns an image, additional test code is written for this function in order not to interfere with testing. The computed part of the function is copied into the def test_calculate() function, which returns 'scaled_sum', the raster data for suitability. To test this function, first declare the example variables: 
+```python
+    #Preparing example variables
+    geology_weight = 0.2
+    population_weight = 0.2
+    transport_weight = 0.6
+    num_rows = 3
+    num_cols = 3
+    geology_data = [[1,1,1],[2,2,2],[3,3,3]]
+    population_data =[[4,4,4],[5,5,5],[6,6,6]]
+    transport_data = [[7,7,7],[8,8,8],[9,9,9]]
+```
+The example variables are ready for testing. 
+
+```python
+>>> test_calculate()
+    [[0, 0, 0], [127, 127, 127], [255, 255, 255]]
+```
+After verification, the test results are correct and the function works fine.
 
 
 ## 📄 License
