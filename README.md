@@ -33,6 +33,9 @@ This project is based on the [MIT](https://choosealicense.com/licenses/mit/) lic
 ## Credits
 This project was developed independently by Pei Ziyu (Perry). The GUI interface draws inspiration from similar tools commonly used by urban planners and GIS professionals. I would like to thank these professionals for their invaluable contribution to the field of spatial analysis, which has paved the way for my work. In addition, I would like to thank the developers of the following open source libraries who played an important role in the development of this project: NumPy: Travis E. Oliphant, et al. Matplotlib: John D. Hunter, et al. Tkinter: Python Software Foundation, et al. 
 
+## 💡 Questions and feedback
+If you encounter problems using this tool, or have any suggestions or feedback, please contact the author at: Perry.yu699@gmail.com.
+
 ## 📅 Release History
 - 2023/05/01 v1.0.0: Initial release with main features.
 
