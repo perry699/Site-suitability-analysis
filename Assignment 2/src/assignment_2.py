@@ -391,7 +391,7 @@ def test_download_result():
     fig_s = fig_t
     #Call the download_result() function
     #Get the absolute path to the directory where the current script is located
-    script_dir = os.path.dirname(os.path.abspath(__file__))
+    script_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     #Splice the output folder and image file names into a full path
     image_path = os.path.join(script_dir, 'test', 'test_download.png')
     txt_path = os.path.join(script_dir, 'test', 'test_download.txt')
@@ -436,7 +436,7 @@ def download_result():
         raise ValueError("The current result is empty, please perform suitability analysis first.")
     else:
         #Get the absolute path to the directory where the current script is located
-        script_dir = os.path.dirname(os.path.abspath(__file__))
+        script_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         #Splice the output folder and image file names into a full path
         image_path = os.path.join(script_dir, 'output', 'suitabilityMap.png')
         txt_path = os.path.join(script_dir, 'output', 'suitabilityMap.txt')
